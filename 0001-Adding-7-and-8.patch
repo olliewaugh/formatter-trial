@@ -1,0 +1,41 @@
+From 122e11b654d87b557b8c881fee3b0360ec7048e0 Mon Sep 17 00:00:00 2001
+From: a1669269 <a1669269@student.adelaide.edu.au>
+Date: Wed, 6 Dec 2017 05:17:04 +0000
+Subject: [PATCH 1/2] Adding 7 and 8
+
+---
+ eighthFolder/files  | 0
+ eighthFolder/here   | 0
+ eighthFolder/some   | 0
+ seventhFolder/files | 0
+ seventhFolder/here  | 0
+ seventhFolder/some  | 0
+ 6 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 eighthFolder/files
+ create mode 100644 eighthFolder/here
+ create mode 100644 eighthFolder/some
+ create mode 100644 seventhFolder/files
+ create mode 100644 seventhFolder/here
+ create mode 100644 seventhFolder/some
+
+diff --git a/eighthFolder/files b/eighthFolder/files
+new file mode 100644
+index 0000000..e69de29
+diff --git a/eighthFolder/here b/eighthFolder/here
+new file mode 100644
+index 0000000..e69de29
+diff --git a/eighthFolder/some b/eighthFolder/some
+new file mode 100644
+index 0000000..e69de29
+diff --git a/seventhFolder/files b/seventhFolder/files
+new file mode 100644
+index 0000000..e69de29
+diff --git a/seventhFolder/here b/seventhFolder/here
+new file mode 100644
+index 0000000..e69de29
+diff --git a/seventhFolder/some b/seventhFolder/some
+new file mode 100644
+index 0000000..e69de29
+-- 
+2.11.0
+
