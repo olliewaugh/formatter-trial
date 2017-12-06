@@ -1,0 +1,36 @@
+From ea0fa2a0220dcf52db1d08057a756d4ccc9cae56 Mon Sep 17 00:00:00 2001
+From: a1669269 <a1669269@student.adelaide.edu.au>
+Date: Wed, 6 Dec 2017 01:53:06 +0000
+Subject: [PATCH 2/7] Adding third folder and contents
+
+---
+ thirdFolder/created | 0
+ thirdFolder/folder  | 0
+ thirdFolder/here    | 0
+ thirdFolder/inside  | 0
+ thirdFolder/things  | 0
+ 5 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 thirdFolder/created
+ create mode 100644 thirdFolder/folder
+ create mode 100644 thirdFolder/here
+ create mode 100644 thirdFolder/inside
+ create mode 100644 thirdFolder/things
+
+diff --git a/thirdFolder/created b/thirdFolder/created
+new file mode 100644
+index 0000000..e69de29
+diff --git a/thirdFolder/folder b/thirdFolder/folder
+new file mode 100644
+index 0000000..e69de29
+diff --git a/thirdFolder/here b/thirdFolder/here
+new file mode 100644
+index 0000000..e69de29
+diff --git a/thirdFolder/inside b/thirdFolder/inside
+new file mode 100644
+index 0000000..e69de29
+diff --git a/thirdFolder/things b/thirdFolder/things
+new file mode 100644
+index 0000000..e69de29
+-- 
+2.11.0
+

@@ -1,0 +1,308 @@
+From 6117c7bc66508766dd86eaf99faffb5b7d4ed44b Mon Sep 17 00:00:00 2001
+From: a1669269 <a1669269@student.adelaide.edu.au>
+Date: Wed, 6 Dec 2017 02:40:51 +0000
+Subject: [PATCH 7/7] Changing 3 second files and 3 first
+
+---
+ 0001-Adding-initial-files.patch             | 67 +++++++++++++++++++++++++++++
+ 0001-Adding-things-to-the-2nd-folder.patch  | 26 +++++++++++
+ 0002-Adding-third-folder-and-contents.patch | 36 ++++++++++++++++
+ 0003-Adding-contents-and-4th-folder.patch   | 36 ++++++++++++++++
+ 0004-Adding-things-to-the-2nd-folder.patch  | 26 +++++++++++
+ firstFolder/file                            |  3 ++
+ firstFolder/here                            |  3 ++
+ firstFolder/stuff                           |  3 ++
+ secondFolder/and                            |  2 +-
+ secondFolder/everywhere                     |  2 +-
+ secondFolder/going                          |  2 +-
+ 11 files changed, 203 insertions(+), 3 deletions(-)
+ create mode 100644 0001-Adding-initial-files.patch
+ create mode 100644 0001-Adding-things-to-the-2nd-folder.patch
+ create mode 100644 0002-Adding-third-folder-and-contents.patch
+ create mode 100644 0003-Adding-contents-and-4th-folder.patch
+ create mode 100644 0004-Adding-things-to-the-2nd-folder.patch
+
+diff --git a/0001-Adding-initial-files.patch b/0001-Adding-initial-files.patch
+new file mode 100644
+index 0000000..ab61b4e
+--- /dev/null
++++ b/0001-Adding-initial-files.patch
+@@ -0,0 +1,67 @@
++From a132407cb38445994a5ccf6fa6b76e3678154ff6 Mon Sep 17 00:00:00 2001
++From: a1669269 <a1669269@student.adelaide.edu.au>
++Date: Tue, 5 Dec 2017 06:37:11 +0000
++Subject: [PATCH 1/4] Adding initial files
++
++First commit
++---
++ firstFolder/and         | 0
++ firstFolder/file        | 0
++ firstFolder/here        | 0
++ firstFolder/stuff       | 0
++ firstFolder/there       | 0
++ secondFolder/and        | 0
++ secondFolder/everywhere | 0
++ secondFolder/going      | 0
++ secondFolder/here       | 0
++ secondFolder/there      | 0
++ secondFolder/things     | 0
++ 11 files changed, 0 insertions(+), 0 deletions(-)
++ create mode 100644 firstFolder/and
++ create mode 100644 firstFolder/file
++ create mode 100644 firstFolder/here
++ create mode 100644 firstFolder/stuff
++ create mode 100644 firstFolder/there
++ create mode 100644 secondFolder/and
++ create mode 100644 secondFolder/everywhere
++ create mode 100644 secondFolder/going
++ create mode 100644 secondFolder/here
++ create mode 100644 secondFolder/there
++ create mode 100644 secondFolder/things
++
++diff --git a/firstFolder/and b/firstFolder/and
++new file mode 100644
++index 0000000..e69de29
++diff --git a/firstFolder/file b/firstFolder/file
++new file mode 100644
++index 0000000..e69de29
++diff --git a/firstFolder/here b/firstFolder/here
++new file mode 100644
++index 0000000..e69de29
++diff --git a/firstFolder/stuff b/firstFolder/stuff
++new file mode 100644
++index 0000000..e69de29
++diff --git a/firstFolder/there b/firstFolder/there
++new file mode 100644
++index 0000000..e69de29
++diff --git a/secondFolder/and b/secondFolder/and
++new file mode 100644
++index 0000000..e69de29
++diff --git a/secondFolder/everywhere b/secondFolder/everywhere
++new file mode 100644
++index 0000000..e69de29
++diff --git a/secondFolder/going b/secondFolder/going
++new file mode 100644
++index 0000000..e69de29
++diff --git a/secondFolder/here b/secondFolder/here
++new file mode 100644
++index 0000000..e69de29
++diff --git a/secondFolder/there b/secondFolder/there
++new file mode 100644
++index 0000000..e69de29
++diff --git a/secondFolder/things b/secondFolder/things
++new file mode 100644
++index 0000000..e69de29
++-- 
++2.11.0
++
+diff --git a/0001-Adding-things-to-the-2nd-folder.patch b/0001-Adding-things-to-the-2nd-folder.patch
+new file mode 100644
+index 0000000..40e5e7e
+--- /dev/null
++++ b/0001-Adding-things-to-the-2nd-folder.patch
+@@ -0,0 +1,26 @@
++From 5dc430f1f3c231ccdff8cc16edb4b8875fa8367f Mon Sep 17 00:00:00 2001
++From: a1669269 <a1669269@student.adelaide.edu.au>
++Date: Wed, 6 Dec 2017 01:56:07 +0000
++Subject: [PATCH] Adding things to the 2nd folder
++
++---
++ secondFolder/making | 0
++ secondFolder/more   | 0
++ secondFolder/stuff  | 0
++ 3 files changed, 0 insertions(+), 0 deletions(-)
++ create mode 100644 secondFolder/making
++ create mode 100644 secondFolder/more
++ create mode 100644 secondFolder/stuff
++
++diff --git a/secondFolder/making b/secondFolder/making
++new file mode 100644
++index 0000000..e69de29
++diff --git a/secondFolder/more b/secondFolder/more
++new file mode 100644
++index 0000000..e69de29
++diff --git a/secondFolder/stuff b/secondFolder/stuff
++new file mode 100644
++index 0000000..e69de29
++-- 
++2.11.0
++
+diff --git a/0002-Adding-third-folder-and-contents.patch b/0002-Adding-third-folder-and-contents.patch
+new file mode 100644
+index 0000000..934bf95
+--- /dev/null
++++ b/0002-Adding-third-folder-and-contents.patch
+@@ -0,0 +1,36 @@
++From ea0fa2a0220dcf52db1d08057a756d4ccc9cae56 Mon Sep 17 00:00:00 2001
++From: a1669269 <a1669269@student.adelaide.edu.au>
++Date: Wed, 6 Dec 2017 01:53:06 +0000
++Subject: [PATCH 2/4] Adding third folder and contents
++
++---
++ thirdFolder/created | 0
++ thirdFolder/folder  | 0
++ thirdFolder/here    | 0
++ thirdFolder/inside  | 0
++ thirdFolder/things  | 0
++ 5 files changed, 0 insertions(+), 0 deletions(-)
++ create mode 100644 thirdFolder/created
++ create mode 100644 thirdFolder/folder
++ create mode 100644 thirdFolder/here
++ create mode 100644 thirdFolder/inside
++ create mode 100644 thirdFolder/things
++
++diff --git a/thirdFolder/created b/thirdFolder/created
++new file mode 100644
++index 0000000..e69de29
++diff --git a/thirdFolder/folder b/thirdFolder/folder
++new file mode 100644
++index 0000000..e69de29
++diff --git a/thirdFolder/here b/thirdFolder/here
++new file mode 100644
++index 0000000..e69de29
++diff --git a/thirdFolder/inside b/thirdFolder/inside
++new file mode 100644
++index 0000000..e69de29
++diff --git a/thirdFolder/things b/thirdFolder/things
++new file mode 100644
++index 0000000..e69de29
++-- 
++2.11.0
++
+diff --git a/0003-Adding-contents-and-4th-folder.patch b/0003-Adding-contents-and-4th-folder.patch
+new file mode 100644
+index 0000000..fd59f27
+--- /dev/null
++++ b/0003-Adding-contents-and-4th-folder.patch
+@@ -0,0 +1,36 @@
++From 3e6481559d9d87cc6a3dd891f989acd12de630a7 Mon Sep 17 00:00:00 2001
++From: a1669269 <a1669269@student.adelaide.edu.au>
++Date: Wed, 6 Dec 2017 01:55:00 +0000
++Subject: [PATCH 3/4] Adding contents and 4th folder
++
++---
++ fourthFolder/adding   | 0
++ fourthFolder/contents | 0
++ fourthFolder/here     | 0
++ fourthFolder/insider  | 0
++ fourthFolder/some     | 0
++ 5 files changed, 0 insertions(+), 0 deletions(-)
++ create mode 100644 fourthFolder/adding
++ create mode 100644 fourthFolder/contents
++ create mode 100644 fourthFolder/here
++ create mode 100644 fourthFolder/insider
++ create mode 100644 fourthFolder/some
++
++diff --git a/fourthFolder/adding b/fourthFolder/adding
++new file mode 100644
++index 0000000..e69de29
++diff --git a/fourthFolder/contents b/fourthFolder/contents
++new file mode 100644
++index 0000000..e69de29
++diff --git a/fourthFolder/here b/fourthFolder/here
++new file mode 100644
++index 0000000..e69de29
++diff --git a/fourthFolder/insider b/fourthFolder/insider
++new file mode 100644
++index 0000000..e69de29
++diff --git a/fourthFolder/some b/fourthFolder/some
++new file mode 100644
++index 0000000..e69de29
++-- 
++2.11.0
++
+diff --git a/0004-Adding-things-to-the-2nd-folder.patch b/0004-Adding-things-to-the-2nd-folder.patch
+new file mode 100644
+index 0000000..ff8b2fd
+--- /dev/null
++++ b/0004-Adding-things-to-the-2nd-folder.patch
+@@ -0,0 +1,26 @@
++From 5dc430f1f3c231ccdff8cc16edb4b8875fa8367f Mon Sep 17 00:00:00 2001
++From: a1669269 <a1669269@student.adelaide.edu.au>
++Date: Wed, 6 Dec 2017 01:56:07 +0000
++Subject: [PATCH 4/4] Adding things to the 2nd folder
++
++---
++ secondFolder/making | 0
++ secondFolder/more   | 0
++ secondFolder/stuff  | 0
++ 3 files changed, 0 insertions(+), 0 deletions(-)
++ create mode 100644 secondFolder/making
++ create mode 100644 secondFolder/more
++ create mode 100644 secondFolder/stuff
++
++diff --git a/secondFolder/making b/secondFolder/making
++new file mode 100644
++index 0000000..e69de29
++diff --git a/secondFolder/more b/secondFolder/more
++new file mode 100644
++index 0000000..e69de29
++diff --git a/secondFolder/stuff b/secondFolder/stuff
++new file mode 100644
++index 0000000..e69de29
++-- 
++2.11.0
++
+diff --git a/firstFolder/file b/firstFolder/file
+index e69de29..c1067e6 100644
+--- a/firstFolder/file
++++ b/firstFolder/file
+@@ -0,0 +1,3 @@
++#!bin/bash
++
++echo "I am called file"
+\ No newline at end of file
+diff --git a/firstFolder/here b/firstFolder/here
+index e69de29..34e074a 100644
+--- a/firstFolder/here
++++ b/firstFolder/here
+@@ -0,0 +1,3 @@
++#!bin/bash
++
++echo "I am called here"
+\ No newline at end of file
+diff --git a/firstFolder/stuff b/firstFolder/stuff
+index e69de29..b13964b 100644
+--- a/firstFolder/stuff
++++ b/firstFolder/stuff
+@@ -0,0 +1,3 @@
++#!bin/bash
++
++echo "I am called stuff"
+\ No newline at end of file
+diff --git a/secondFolder/and b/secondFolder/and
+index efd57a1..3c9a437 100644
+--- a/secondFolder/and
++++ b/secondFolder/and
+@@ -1,3 +1,3 @@
+ #!bin/bash
+ 
+-echo "I am and"
+\ No newline at end of file
++echo "I am called and"
+\ No newline at end of file
+diff --git a/secondFolder/everywhere b/secondFolder/everywhere
+index 2b7a905..a678b5b 100644
+--- a/secondFolder/everywhere
++++ b/secondFolder/everywhere
+@@ -1,3 +1,3 @@
+ #!bin/bash
+ 
+-echo "I am everywhere"
+\ No newline at end of file
++echo "I am called everywhere"
+\ No newline at end of file
+diff --git a/secondFolder/going b/secondFolder/going
+index ce71cd4..b22862e 100644
+--- a/secondFolder/going
++++ b/secondFolder/going
+@@ -1,3 +1,3 @@
+ #!bin/bash
+ 
+-echo "I am going"
+\ No newline at end of file
++echo "I am called going"
+\ No newline at end of file
+-- 
+2.11.0
+

@@ -1,0 +1,26 @@
+From 5dc430f1f3c231ccdff8cc16edb4b8875fa8367f Mon Sep 17 00:00:00 2001
+From: a1669269 <a1669269@student.adelaide.edu.au>
+Date: Wed, 6 Dec 2017 01:56:07 +0000
+Subject: [PATCH 4/7] Adding things to the 2nd folder
+
+---
+ secondFolder/making | 0
+ secondFolder/more   | 0
+ secondFolder/stuff  | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 secondFolder/making
+ create mode 100644 secondFolder/more
+ create mode 100644 secondFolder/stuff
+
+diff --git a/secondFolder/making b/secondFolder/making
+new file mode 100644
+index 0000000..e69de29
+diff --git a/secondFolder/more b/secondFolder/more
+new file mode 100644
+index 0000000..e69de29
+diff --git a/secondFolder/stuff b/secondFolder/stuff
+new file mode 100644
+index 0000000..e69de29
+-- 
+2.11.0
+
