@@ -7,5 +7,6 @@ int main()
     cout << "Making a change in red" << endl;
     cout << endl;
     cout << "And another red change" << endl;
+    cout << "Making some trouble from the black branch" << endl;
     return 0;
 }
