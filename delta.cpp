@@ -8,5 +8,7 @@ int main()
     cout << endl;
     // master in the middle
     cout << "File D" << endl;
+    cout << "Megenta" << endl;
+    // magenta comment
     return 0;
 }
