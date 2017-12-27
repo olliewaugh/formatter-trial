@@ -12,9 +12,7 @@ int main()
     for (int i=0; i<10; i++)
     {
         cout << "Large amount of changes" << endl;
-        cout << "Fire more and more lines" << endl;
-        
-        cout << "Even need fire lines in between" << endl;
+        // a few deletions fire
     }
     
     cout << "A large set of fire changes" << endl;
