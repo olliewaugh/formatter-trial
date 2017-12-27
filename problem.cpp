@@ -24,6 +24,7 @@ int main()
     {
         if (n % i == 0)
         {
+            cout << "Fire" << endl;
             cout << i << " is a factor of " << n << endl;
         }
     }
