@@ -12,12 +12,12 @@ int main()
     for (int i=0; i<10; i++)
     {
         cout << "Large amount of changes" << endl;
-        cout << "More and more lines" << endl;
+        cout << "Fire more and more lines" << endl;
         
-        cout << "Even need lines in between" << endl;
+        cout << "Even need fire lines in between" << endl;
     }
     
-    cout << "A large set of changes" << endl;
+    cout << "A large set of fire changes" << endl;
     
     int n = 100;
     for (int i=1; i<=n; i++)
