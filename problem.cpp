@@ -12,9 +12,9 @@ int main()
     for (int i=0; i<10; i++)
     {
         cout << "Large amount of changes" << endl;
-        cout << "More and more lines" << endl;
+        cout << "More and more master lines" << endl;
         
-        cout << "Even need lines in between" << endl;
+        cout << "Even need master lines in between" << endl;
     }
     
     cout << "A large set of changes" << endl;
