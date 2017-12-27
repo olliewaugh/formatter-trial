@@ -13,12 +13,12 @@ int main()
     {
         cout << "Large amount of water changes" << endl;
         cout << "More and more master lines" << endl;
-        
+        // a few deletions fire
         cout << "Even need master water lines in between" << endl;
     }
     
     cout << "Water" << endl;
-    
+    cout << "A large set of fire changes" << endl;
     cout << "A large set of water changes" << endl;
     
     int n = 100;
@@ -26,6 +26,8 @@ int main()
     {
         if (n % i == 0)
         {
+
+            cout << "Fire" << endl;
             cout << "Water" << endl;
             cout << i << " is a factor of " << n << endl;
         }
