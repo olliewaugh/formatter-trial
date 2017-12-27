@@ -17,13 +17,16 @@ int main()
         cout << "Even need master water lines in between" << endl;
     }
     
+    cout << "Water" << endl;
+    
     cout << "A large set of water changes" << endl;
     
     int n = 100;
-    for (int i=1; i<=n; i++)
+    for (int i=1; i<=2*n; i++)
     {
         if (n % i == 0)
         {
+            cout << "Water" << endl;
             cout << i << " is a factor of " << n << endl;
         }
     }
